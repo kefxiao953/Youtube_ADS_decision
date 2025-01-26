@@ -115,8 +115,3 @@ new_vector_scaled = scaler.transform([new_vector])
 # 预测新数据的聚类
 new_label = kmeans.predict(new_vector_scaled)
 print(f'The new data point belongs to cluster: {new_label[0]}')
-
-#===============================课后思考题==================================
-#这样的cluster过程是否有不足之处？应当如何改进？
-#获得新数据的聚类结果之后，应该怎样让结果服务于业务（投流决策，我们应该投谁），
-#即，我们要做出投流决策，还需要做什么？
