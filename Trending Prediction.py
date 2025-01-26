@@ -4,7 +4,6 @@
 #我们现在要考虑第三个纬度，未来category的流量预测值的大小
 #我们采用Time Series Prediction来完成这个任务
 #常见的Time Series Prediction model 有很多，答案中采用ARIMA。
-#同学可以自行尝试LSTM
 #====================================================
 # 引入模块
 import pandas as pd
